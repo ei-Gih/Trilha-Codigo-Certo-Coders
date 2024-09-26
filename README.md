@@ -40,6 +40,5 @@ Modularidade e Organização: O CSS está organizado por seções, facilitando a
 Responsividade: Usamos media queries para garantir uma excelente experiência em dispositivos de diferentes tamanhos.
 Legibilidade: O código está bem documentado com comentários explicativos.
 
-Confira o resultado [Aqui]https://delicate-panda-f9a902.netlify.app
-git clone https://github.com/seu-usuario/portfolio-gisele.git
-cd portfolio-gisele
+Confira o resultado [Aqui](https://delicate-panda-f9a902.netlify.app)
+
