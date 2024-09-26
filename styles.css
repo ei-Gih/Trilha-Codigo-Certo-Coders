@@ -9,7 +9,6 @@ body {
     font-family: 'Poppins', sans-serif;
     background: linear-gradient(to bottom right, #e53939, #000000);
     color: #ffffff;
-    padding: 20px;
 }
 
 header {
@@ -18,8 +17,13 @@ header {
     background: #000000;
     color: #ffffff;
     border-bottom: 3px solid #e53939;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     margin-bottom: 30px;
+    top: 0;
+    position: relative;
+}
+
+.conteudo{
+    padding: 30px;
 }
 
 header h1 {
@@ -60,6 +64,11 @@ section:hover {
     transform: scale(1.02);
 }
 
+.text{
+    font-size: 1.6em;
+    margin-left: 2%;
+}
+
 h2 {
     color: #e53939;
     font-size: 2rem;
@@ -93,31 +102,98 @@ h2 {
     margin-left: 20px;
     font-size: 1.2rem;
 }
+.detalhes p{
+    padding-bottom: 7px;
+}
+
+/* Seção Sobre Mim com Botões e Imagem */
+.sobre-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.texto-sobre {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.botoes {
+    margin-top: 20px;
+    margin-left: 30%;
+}
+
+.botoes a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #e53939;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.botoes a:hover {
+    background-color: #ffffff;
+    color: #e53939;
+}
+
+.img-sobre-container {
+    flex: 1;
+    max-width: 500px;
+}
+
 
 .sobre p, .motivacoes p {
     text-align: justify;
     margin-bottom: 20px;
 }
 
-.gostos ul {
-    list-style-type: none;
-    padding: 0;
+/* Seção Gostos Pessoais */
+.gostos-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.gostos li {
-    margin-bottom: 10px;
+.img-gostos-container .img-motivacoes-container{
+    flex: 1;
+    max-width: 400px;
 }
 
-.gostos i, .motivacoes i, .sobre i {
-    color: #e53939;
-    margin-right: 8px;
+.texto-gostos {
+    flex: 1;
+    font-size:1.5em;
+    margin-left: 20px;
+
+}
+.texto-gostos li{
+    padding-bottom: 2%;
+    margin-left: 8%;
 }
 
-.img-sobre, .img-gostos, .img-motivacoes {
+.gos{
+    margin-right: 1%;
+}
+
+.img-gostos .img-motivacoes .img-sobre{
     width: 100%;
-    border-radius: 8px;
-    margin-top: 20px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Seção Motivação */
+.motivacoes-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+}
+
+.texto-motivacoes {
+    flex: 1;
+    margin-right: 20px;
+    text-align: justify;
 }
 
 footer {
@@ -128,37 +204,30 @@ footer {
     border-top: 3px solid #e53939;
     box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.5);
 }
-
+.social-icons{
+    color: #ffffff;
+}
 /* Animações */
 section h2 {
     position: relative;
     overflow: hidden;
 }
 
-section h2:after {
+section h2::after {
     content: '';
-    position: absolute;
+    display: block;
+    width: 100%;
     height: 3px;
     background-color: #e53939;
-    width: 100%;
-    left: -100%;
+    position: absolute;
     bottom: 0;
-    animation: slide-in 1s forwards;
+    left: 0;
+    transform: translateX(-100%);
+    transition: transform 0.4s ease;
 }
 
-@keyframes slide-in {
-    to {
-        left: 0;
-    }
-}
-
-/* Transições suaves */
-img {
-    transition: transform 0.3s ease;
-}
-
-img:hover {
-    transform: rotate(5deg);
+section:hover h2::after {
+    transform: translateX(0);
 }
 
 
