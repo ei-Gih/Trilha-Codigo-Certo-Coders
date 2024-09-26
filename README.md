@@ -12,18 +12,18 @@ JavaScript: Funcionalidades interativas e dinâmicas.
 O portfólio foi criado seguindo um design moderno, limpo e responsivo, com base nas seguintes instruções:
 
 ## Paleta de Cores:
-Preto (#000000)
-Vermelho (#e53939)
-Branco (#ffffff)
+* Preto (#000000)
+* Vermelho (#e53939)
+* Branco (#ffffff)
 
 ## Seções Principais:
 
-### Sobre Mim: Apresenta minha biografia, objetivos de carreira e áreas de interesse.
-### Gostos Pessoais: Um visual criativo com imagem à esquerda e texto à direita, mostrando meus interesses e paixões.
-### Motivações: Aqui explico como o voluntariado me proporcionará experiências e competências que me ajudarão a ingressar na minha carreira profissional. A imagem está posicionada à direita, com o texto à esquerda.
-### Projetos: Lista de projetos com filtros por categoria (Front-End, Jogos, Back-End). Cada card exibe o título, uma breve descrição, imagem, e botões de ação para GitHub e "Veja Mais".
-### Contato: Um formulário simples e funcional para facilitar a comunicação com potenciais empregadores e colaboradores.
-### Footer: Fica sempre colado ao final da página, conforme as melhores práticas de design responsivo.
+* Sobre Mim: Apresenta minha biografia, objetivos de carreira e áreas de interesse.
+* Gostos Pessoais: Um visual criativo com imagem à esquerda e texto à direita, mostrando meus interesses e paixões.
+* Motivações: Aqui explico como o voluntariado me proporcionará experiências e competências que me ajudarão a ingressar na minha carreira profissional. A imagem está posicionada à direita, com o texto à esquerda.
+* Projetos: Lista de projetos com filtros por categoria (Front-End, Jogos, Back-End). Cada card exibe o título, uma breve descrição, imagem, e botões de ação para GitHub e "Veja Mais".
+* Contato: Um formulário simples e funcional para facilitar a comunicação com potenciais empregadores e colaboradores.
+* Footer: Fica sempre colado ao final da página, conforme as melhores práticas de design responsivo.
 
 ## 📐 Responsividade
 Todo o site foi desenvolvido para ser completamente responsivo, utilizando as melhores práticas de layout flexível com Flexbox e media queries. Testado e otimizado para diferentes tamanhos de telas, incluindo dispositivos móveis, tablets e desktops.
