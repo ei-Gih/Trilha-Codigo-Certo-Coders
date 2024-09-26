@@ -230,4 +230,45 @@ section:hover h2::after {
     transform: translateX(0);
 }
 
+/* Responsividade */
+@media (max-width: 768px) {
+    .sobre-content, .info-pessoal {
+        flex-direction: column;
+    }
+
+    .img-sobre-container, .img-container {
+        margin-bottom: 20px;
+    }
+
+    .texto-sobre, .detalhes {
+        text-align: center;
+    }
+
+    .botoes {
+        text-align: center;
+        margin-left: 5%;
+        
+    }
+    .text-list{
+        font-size: 20px;
+        text-align: justify;
+    }
+    .text{
+        font-size: 1em;
+    }
+
+    .botoes a {
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+
+    .img-gostos{
+        width: 200px;
+        margin-left: 35%;
+    }
+
+    .img-motivacoes{
+        width: 300px;
+    }
+}
 
